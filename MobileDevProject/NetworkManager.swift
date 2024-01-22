@@ -10,7 +10,9 @@ import Foundation
 
 
 struct NetworkManager {
-    let apiKey = "patDf2G6YkoBu1DVw.c7e5e113a753bd1757b093829e0f65994473bc5210caa6a18a2a536502246ef4"
+    var apiKey: String {
+            ProcessInfo.processInfo.environment["AIRTABLE_API_KEY"] ?? "DefaultAPIKey"
+        }
     let baseId = "apps3Rtl22fQOI9Ph"
     let tableId = "tbl5Ti8iSeVNkebs7"
     

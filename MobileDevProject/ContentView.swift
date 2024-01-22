@@ -74,7 +74,7 @@ struct AllActivitiesView: View {
     var body: some View {
         NavigationView {
             List {
-                Section(header: Text("Today's Program")) {
+                Section(header: Text("All Program")) {
                     ForEach(allFields, id: \.Activity) { talk in
                         TalkRowView(talk: talk)
                     }
@@ -122,7 +122,7 @@ struct HomePageView: View {
                 }
             }
             .listStyle(GroupedListStyle())
-            .navigationTitle("Program")
+            .navigationTitle("Security Event")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink(destination: AllActivitiesView()) {
