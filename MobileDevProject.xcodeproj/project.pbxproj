@@ -14,6 +14,7 @@
 		9B60D4132B5EA3AC001A5201 /* MobileDevProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B60D4122B5EA3AC001A5201 /* MobileDevProjectTests.swift */; };
 		9B60D41D2B5EA3AC001A5201 /* MobileDevProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B60D41C2B5EA3AC001A5201 /* MobileDevProjectUITests.swift */; };
 		9B60D41F2B5EA3AC001A5201 /* MobileDevProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B60D41E2B5EA3AC001A5201 /* MobileDevProjectUITestsLaunchTests.swift */; };
+		9B60D42E2B5EADC3001A5201 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B60D42D2B5EADC3001A5201 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9B60D4182B5EA3AC001A5201 /* MobileDevProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileDevProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B60D41C2B5EA3AC001A5201 /* MobileDevProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDevProjectUITests.swift; sourceTree = "<group>"; };
 		9B60D41E2B5EA3AC001A5201 /* MobileDevProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDevProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B60D42D2B5EADC3001A5201 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9B60D4042B5EA3AC001A5201 /* Assets.xcassets */,
 				9B60D4062B5EA3AC001A5201 /* MobileDevProject.entitlements */,
 				9B60D4072B5EA3AC001A5201 /* Preview Content */,
+				9B60D42D2B5EADC3001A5201 /* NetworkManager.swift */,
 			);
 			path = MobileDevProject;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B60D42E2B5EADC3001A5201 /* NetworkManager.swift in Sources */,
 				9B60D4032B5EA3AB001A5201 /* ContentView.swift in Sources */,
 				9B60D4012B5EA3AB001A5201 /* MobileDevProjectApp.swift in Sources */,
 			);
