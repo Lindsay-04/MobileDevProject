@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B2672432B67D7E70016AF0A /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2672422B67D7E70016AF0A /* Navigation.swift */; };
 		9B60D4012B5EA3AB001A5201 /* MobileDevProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B60D4002B5EA3AB001A5201 /* MobileDevProjectApp.swift */; };
 		9B60D4032B5EA3AB001A5201 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B60D4022B5EA3AB001A5201 /* ContentView.swift */; };
 		9B60D4052B5EA3AC001A5201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B60D4042B5EA3AC001A5201 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B2672422B67D7E70016AF0A /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		9B60D3FD2B5EA3AB001A5201 /* MobileDevProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileDevProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B60D4002B5EA3AB001A5201 /* MobileDevProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDevProjectApp.swift; sourceTree = "<group>"; };
 		9B60D4022B5EA3AB001A5201 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				9B60D4002B5EA3AB001A5201 /* MobileDevProjectApp.swift */,
+				9B2672422B67D7E70016AF0A /* Navigation.swift */,
 				9B60D4022B5EA3AB001A5201 /* ContentView.swift */,
+				9B60D42D2B5EADC3001A5201 /* NetworkManager.swift */,
 				9B60D4042B5EA3AC001A5201 /* Assets.xcassets */,
 				9B60D4062B5EA3AC001A5201 /* MobileDevProject.entitlements */,
 				9B60D4072B5EA3AC001A5201 /* Preview Content */,
-				9B60D42D2B5EADC3001A5201 /* NetworkManager.swift */,
 			);
 			path = MobileDevProject;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				9B60D42E2B5EADC3001A5201 /* NetworkManager.swift in Sources */,
 				9B60D4032B5EA3AB001A5201 /* ContentView.swift in Sources */,
 				9B60D4012B5EA3AB001A5201 /* MobileDevProjectApp.swift in Sources */,
+				9B2672432B67D7E70016AF0A /* Navigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
