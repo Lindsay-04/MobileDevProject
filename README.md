@@ -1,7 +1,7 @@
 # Project TechToTech Security Event App - Mobile development IOS
 
 ## Authors
-Lindsay Rébeau, Baptiste Keunebroek, Mohammed Saber Bellaaziri
+Baptiste Keunebroek, Lindsay Rébeau, Mohammed Saber Bellaaziri
 
 ## Version 
 1.0
