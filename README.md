@@ -8,8 +8,8 @@ Lindsay Rébeau, Baptiste Keunebroek, Mohammed Saber Bellaaziri
 
 ## Build and Runtime Requirements
 
-Xcode 6.0 or later (download it for free from the Mac App Store)
-iOS 8.0 or later
+- Xcode 6.0 or later (download it for free from the Mac App Store)
+- iOS 8.0 or later
 
 ## Description
 As the iOS development team at TechToTech agency, we created a mobile application for our client's next event. The event is a 2-day security conference. During these 2 days, there will be several types of conferences and activities spread over several rooms. This application will make it easier for visitors to find their way around the event, with all schedules and information on their cell phone. 
