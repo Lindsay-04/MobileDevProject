@@ -38,7 +38,7 @@ Our project use an API database on Airtable, it is necessary to create an API to
 - Go to Accounts, then Developer Spaces. Click on the "Create Token" button.
 - Copy the generated token.
 - Add the token to your Xcode project by clicking on "Edit Scheme..." then select "Environment variables". 
-- Put AIRTABLE_API_KEY for the name and past the token for the value. 
+- Put `AIRTABLE_API_KEY` for the name and past the token for the value. 
 
 ### 4. Run the project
 
