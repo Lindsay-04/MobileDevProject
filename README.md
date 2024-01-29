@@ -21,59 +21,27 @@ As the iOS development team at TechToTech agency, we created a mobile applicatio
 - Use the command `git clone` :  git clone https://github.com/username/project-name.git
 - Download zip files 
 
-### 2. Open Xcode
+### 2. Open Xcode application
 
 ### 3. Open the project in Xcode and configure
 
-- Select "Open another project..." from the welcome screen or from the "File" menu.
+- Select "Open another project..." from the welcome screen.
 - Navigate to the cloned project directory and select the file with the extension ".xcodeproj" or ".xcworkspace".
 - Choose the simulator or device on which you wish to run the application.
 
 ### 4. Configuration 
-To create an API token on Airtable and add it in Xcode to access the data in your Airtable database, follow these steps:
 
-### Step 1: Create an API token on Airtable
+Our project use an API database on Airtable, it is necessary to create an API token on Airtable and add it in Xcode to access the data. 
 
-1. Log in to your Airtable account at [airtable.com](https://airtable.com).
-2. Access the database you wish to use in your application.
-3. Click on the name of your database to access the settings.
-4. Select the "API" tab in the database parameters.
-5. Under "API Access", click on the "Create Token" or "Generate API Key" button.
-6. Copy the generated token. This token will be used to authenticate requests to your Airtable database.
+- Create an account or log in to your Airtable account : https://airtable.com.
+- Access the database on this link : https://airtable.com/invite/l?inviteId=invuNxfa8nluUqZrl&inviteToken=2dbeb383130a580c5dc606319cdb4491ecc3983d9b2357b57fd6c0e3fae49388&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts
+- Go to Accounts, then Developer Spaces. Click on the "Create Token" button.
+- Copy the generated token.
+- Add the token to your Xcode project by clicking on "Edit Scheme..." then select "Environment variables". 
+- Put AIRTABLE_API_KEY for the name and past the token for the value. 
 
-
-### Step 2: Add the token to Xcode
-
-Now that you have your API token, you can add it to your Xcode project for use in your network requests. Here's how to do it:
-
-1. Open your Xcode project.
-2. In the project browser, find or create the file where you want to store the API token. This is usually done in a configuration file or a constant file.
-3. Create a constant or variable to store your API token. For example:
-
-   ```swift
-   let airtableAPIKey = "YOUR_API_ICI_TOKEN"
-   ```
-
-   Make sure you replace `"YOUR_API_ICI_JETON"` with the token you copied from Airtable.
-
-4. Use this constant or variable in your code when making requests to the Airtable API. For example:
-
-   ```swift
-   let headers = ["Authorization": "Bearer\(airtableAPIKey)"]
-   ```
-
-   This line of code will be used to include the API token in the headers of your network requests to Airtable.
-
-
-
-### Step 3: Use the token in your network requests
-
-Now that you've added your API token to your Xcode project, you can use it to authenticate your network requests to Airtable. Be sure to include this token in the headers of your HTTP requests as described in the previous step.
-
-By following these steps, you can create an API token on Airtable and add it to your Xcode project to securely access data in your Airtable database.
 ### 4. Run the project
 
-- Press the play button to compile and run the project.
+- Now, press the play button to compile and run the project.
 - See the results with the simulator or a real device with the application running.
-
 
