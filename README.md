@@ -5,7 +5,7 @@
 ## Version 
 1.0
 
-## Build and Runtime Requirements
+## Requirements
 
 - Xcode 6.0 or later (download it for free from the Mac App Store)
 - iOS 8.0 or later
